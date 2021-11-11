@@ -1,4 +1,3 @@
-import $ from jquery
 console.log("imagine if this actually worked... OH WAIT IT MIGHT BE")
 $("#submit").on('click', () => {
   var slot = $("#slot").val()
