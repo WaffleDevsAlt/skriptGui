@@ -8,40 +8,9 @@
         width: 100%
        }
     </style>
-    <script type="text/javascript">console.log("imagine if this actually worked... OH WAIT IT MIGHT BE")
-$("#submit").on('click', () => {
-  var slot = $("#slot").val()
-  var slot = slot.split(',')
-  var item = $("#item").val()
-  var item = item.split(',')
-  var name = $("#name").val()
-  var name = name.split(',')
-  var lore = $("#lore").val()
-  var lore = lore.split(',')
-  var result = ""
-  
-  for (var i = 0; i < slot.length; i++) {
-    result += "set slot " + slot[i] + " of {_gui} to " + item[i] + " named \"" + name[i] + "\" with lore \"" + lore[i] + "\"<br>"
-  }
-  $("#result").html(result)
-})</script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   </head>
   <body>
-    <label for="slot">Slot #:</label>
-    <input type="text" id="slot" class="input">
-    <br> <br>
-    <label for="item">Item: </label>
-    <input type="text" id="item" class="input">
-    <br> <br>
-    <label for="slot">Name: </label>
-    <input type="text" id="name" class="input">
-    <br> <br>
-    <label for="slot">Lore: </label>
-    <input type="text" id="lore" class="input">
-    <br> <br>
-    <input type="submit" value="submit" id="submit">
-    <p id="result">a</p>
+    <script async src="//jsfiddle.net/WaffleDevsAlt/u1atkcmn/embed/result/dark/"></script>
   </body>
 
 </html>
