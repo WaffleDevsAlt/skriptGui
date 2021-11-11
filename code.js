@@ -7,7 +7,6 @@ $("#submit").on('click', () => {
   var name = name.split(',')
   var lore = $("#lore").val()
   var lore = lore.split(',')
-
   var result = ""
 
   for (var i = 0; i < slot.length; i++) {
